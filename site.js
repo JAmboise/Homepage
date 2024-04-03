@@ -16,5 +16,12 @@
   }
   displayMessage();
 
-//Secret message ...
- 
+//Secret message ... I tried putting this code here but it didn't work. 
+/* const secretMessage = document.getElementById('secretMessage')
+
+const btnSecretMessage = document.getElementById('btnSecretMessage')
+btnSecretMessage.addEventListener('click', () => {
+   const message = "The treasure is buried beneath the tree with the red leaves."
+   localStorage.setItem("It's a secret to everybody.", message)
+   secretMessage.textContent = localStorage.getItem("It's a secret to everybody.") ||''
+}); */
